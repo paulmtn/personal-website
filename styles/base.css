@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "retrobyte";
+    src: url("/fonts/RetroByte.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "starcrush";
+    src: url("/fonts/Star Crush.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "terminal-grotesque";
+    src: url("/fonts/terminal-grotesque.ttf") format("truetype");
+}
+
+html {
+    font-size: 16px;
+}
+body {
+    font-family: "starcrush";
+    font-size: 1rem;
+    font-weight: 100;
+}
