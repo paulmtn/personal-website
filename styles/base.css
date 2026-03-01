@@ -8,9 +8,17 @@
     src: url("/fonts/Star Crush.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "terminal-grotesque";
-    src: url("/fonts/terminal-grotesque.ttf") format("truetype");
+
+:root {
+    --primary: #599972;
+    --gradient-1: rgb(181, 232, 227);
+    --gradient-2: rgb(150, 210, 174);
+
+
+    --homepage-bg: url("../assets/carnation-lily-lily-rose-sargeant(7).png");
+    /* --homepage-bg: url("../assets/original_70566fb0-be5f-4fbd-ac5d-15fef2d15be7_IMG_20260214_132239703-EDIT(5).png"); */
+
+    --homepage-main-bg: url("../assets/bgs/bg(4).png");
 }
 
 html {
@@ -20,5 +28,4 @@ html {
 body {
     font-family: "starcrush";
     font-size: 1rem;
-    font-weight: 100;
 }
